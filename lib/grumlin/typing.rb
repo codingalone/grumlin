@@ -15,6 +15,7 @@ module Grumlin
       "g:Int32" => ->(value) { cast_int(value) },
       "g:Double" => ->(value) { cast_double(value) },
       "g:Direction" => ->(value) { value },
+      "g:UUID" => ->(value) { value },
       # "g:VertexProperty"=> ->(value) { value }, # TODO: implement me
       "g:T" => ->(value) { value.to_sym }
     }.freeze
