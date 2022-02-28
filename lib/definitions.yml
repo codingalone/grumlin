@@ -11,6 +11,7 @@ steps:
   - both
   - bothE
   - by
+  - cap
   - choose
   - coalesce
   - constant
