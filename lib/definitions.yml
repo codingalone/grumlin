@@ -78,6 +78,10 @@ steps:
   - withSack
   - withSideEffect
 expressions:
+  cardinality:
+  - list
+  - set
+  - single
   operator:
   - addAll
   - and
