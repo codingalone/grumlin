@@ -3,7 +3,7 @@
 module Grumlin
   module Expressions
     module Cardinality
-      SUPPORTED_STEPS = Grumlin.definitions.dig(:expressions, :operator).map(&:to_sym).freeze
+      SUPPORTED_STEPS = Grumlin.definitions.dig(:expressions, :cardinality).map(&:to_sym).freeze
 
       class << self
         extend Expression
